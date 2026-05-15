@@ -1,0 +1,24 @@
+name: test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm install --legacy-peer-deps
+      - run: npx hardhat compile
+      - run: npx hardhat test
+      - run: npx hardhat coverage
+      - uses: actions/upload-artifact@v4
+        with:
+          name: coverage
+          path: coverage/
