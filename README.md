@@ -1,5 +1,9 @@
 # gas-sponsor-paymaster
 
+[![test](https://github.com/0xPenwright/gas-sponsor-paymaster/actions/workflows/test.yml/badge.svg)](https://github.com/0xPenwright/gas-sponsor-paymaster/actions/workflows/test.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Solidity](https://img.shields.io/badge/Solidity-0.8.23-363636.svg)](https://soliditylang.org)
+
 An ERC-4337 paymaster that sponsors gas for whitelisted senders, with a per-sender daily wei limit and pause control. Compatible with EntryPoint v0.7.
 
 ```
