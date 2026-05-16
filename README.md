@@ -114,4 +114,6 @@ MIT — see [LICENSE](./LICENSE).
 
 ---
 
-**Author:** [0xPenwright](https://github.com/0xPenwright) · [@0xPenwright](https://twitter.com/0xPenwright) · solo Web3 engineer, available for paymaster, vault, and integration work · USDC/USDT on Base, Arbitrum, Polygon, Tron.
+**Author:** [0xPenwright](https://github.com/0xPenwright) · [@0xPenwright](https://twitter.com/0xPenwright) · solo Web3 engineer, available for paymaster, vault, and integration work.
+
+Payable in USDC / USDT on Ethereum, Polygon, Base, Arbitrum, Optimism → [app.request.finance/create/633560518783137d](https://app.request.finance/create/633560518783137d)
